@@ -18,7 +18,6 @@ public class Main {
         //day 12 36n 74w
         //day 13 39n 74w
 
-
         double p1 = partialDistance(25,-15,23,-20);
         double p2 = partialDistance(23,-20,21,-24);
         double p3 = partialDistance(21,-24,20,-27);
@@ -34,7 +33,7 @@ public class Main {
 
         double totalDistance = p1 + p2 + p3 + p4 + p5 + p6 + p7
                 + p8 + p9 + p10 + p11 + p12;
-        System.out.println(totalDistance);
+        System.out.println("The hurricane travelled " + totalDistance + " kilometers over the 13 days.");
 
     }
 
@@ -48,7 +47,7 @@ public class Main {
 
 
     public static double a(double x1, double y1, double x2, double y2) {
-        double deltaPhi = delta(x1, x1);
+        double deltaPhi = delta(x1, x2);
         double deltaLambda = delta(y1, y2);
         double A = (Math.sin(deltaPhi / 2) * Math.sin(deltaPhi / 2)) + (Math.cos(x1) * Math.cos(x2)) *
                 (Math.sin(deltaLambda / 2) * Math.sin(deltaLambda / 2));
