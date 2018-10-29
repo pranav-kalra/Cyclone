@@ -18,18 +18,18 @@ public class Main {
         //day 12 36n 74w
         //day 13 39n 74w
 
-        double p1 = partialDistance(25,-15,23,-20);
-        double p2 = partialDistance(23,-20,21,-24);
-        double p3 = partialDistance(21,-24,20,-27);
-        double p4 = partialDistance(20,-27,19,-35);
-        double p5 = partialDistance(19,-35,21,-46);
-        double p6 = partialDistance(21,-46,23,-56);
-        double p7 = partialDistance(23,-56,25,-65);
-        double p8 = partialDistance(25,-65,28,-70);
-        double p9 = partialDistance(28,-70,32,-73);
-        double p10 = partialDistance(32,-73,34,-74);
-        double p11 = partialDistance(34,-74,36,-74);
-        double p12 = partialDistance(36,-74,39,-74);
+        double p1 = partialDistance(25,15,23,20);
+        double p2 = partialDistance(23,20,21,24);
+        double p3 = partialDistance(21,24,20,27);
+        double p4 = partialDistance(20,27,19,35);
+        double p5 = partialDistance(19,35,21,46);
+        double p6 = partialDistance(21,46,23,56);
+        double p7 = partialDistance(23,56,25,65);
+        double p8 = partialDistance(25,65,28,70);
+        double p9 = partialDistance(28,70,32,73);
+        double p10 = partialDistance(32,73,34,74);
+        double p11 = partialDistance(34,74,36,74);
+        double p12 = partialDistance(36,74,39,74);
 
         double totalDistance = p1 + p2 + p3 + p4 + p5 + p6 + p7
                 + p8 + p9 + p10 + p11 + p12;
